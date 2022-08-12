@@ -1,19 +1,21 @@
 # backup-google-drive
-###### tags: `selenium` `Windows`
+###### tags: `selenium` `Windows` `Python`
 
-陽明交通大學在2022年11月要大砍校友Gsuite帳號雲端硬碟容量到5 GB，
-本專案用自動化程式下載雲端硬碟並整理資料夾。
+陽明交通大學在2022年11月要大砍Gsuite雲端硬碟到5 GB，
+本專案用自動化程式備份載雲端硬碟。
 
-## Step 0: 下載此專案資料夾
-1. `git clone https://github.com/jason022085/backup-google-drive.git`
+## Step 0: 前置作業
+1. 下載專案資料夾 `git clone https://github.com/jason022085/backup-google-drive.git`
 2. 打開 terminal 並且進入此專案資料夾目錄底下
+3. 安裝相關套件 `pip install -r requirements.txt`
 
 ## Step 1: 下載所有的雲端硬碟
-**注意：雲端硬碟至少要有一個資料夾才能被下載**
-**注意：程式會控制你的滑鼠鍵盤，執行中請放開雙手等待:D**
 * email: 你的Gsuite帳號 (私人gmail有安全性問題無法使用)
 * pwd: 你的密碼 (放心，程式不會記住，也不會做壞事)
 * sdrive: 要下載多少個共用雲端硬碟 (預設為 0)
+* 注意：雲端硬碟**至少要有一個資料夾**才能被下載
+* 注意：程式會控制你的滑鼠鍵盤，**執行中請放開雙手等待**
+
 請輸入以下指令: 
 ```
 python download_gdrive.py --email myaccount@nctu.edu.tw --pwd mypassword --sdrive 0  
