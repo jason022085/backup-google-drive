@@ -77,7 +77,7 @@ def __merge_same_folder(folder) -> None:
         progress.update(1)
     __delete_empty_folder(folder)
 
-def organize_foler(folder):
+def organize_folder(folder):
     __unzip_folder(folder)
     __merge_same_folder(folder)
     
@@ -91,4 +91,4 @@ if __name__ == "__main__":
                         help='The path you save files from Google Drive')
     args = parser.parse_args()
     folder = args.folder
-    organize_foler(folder)
+    organize_folder(folder)
