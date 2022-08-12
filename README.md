@@ -36,7 +36,7 @@ python organize_folder.py --folder D:/where/is/the/download/folder
 資料夾被整理前:
 ![image](https://github.com/jason022085/backup-google-drive/blob/main/demo/demo_2.png)
 
-資料夾被整理後:
+資料夾被整理後(碩班的血汗被合而為一、zip檔解壓縮):
 ![image](https://github.com/jason022085/backup-google-drive/blob/main/demo/demo_3.png)
 
 接下來只要靜靜等待程式運行結束，**完成後可以手動刪除原本下載的zip壓縮檔**。
