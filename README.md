@@ -7,7 +7,8 @@
 ## Step 0: 前置作業
 1. 下載專案資料夾 `git clone https://github.com/jason022085/backup-google-drive.git`
 2. 打開 terminal 並且進入此專案資料夾目錄底下
-3. 安裝相關套件 `pip install -r requirements.txt`
+3. 輸入指令安裝套件 `pip install -r requirements.txt`
+4. 輸入指令執行程式 `main.bat` (若執行此bat檔，則可以跳過後面的step 1和step2)
 
 ## Step 1: 下載所有的雲端硬碟
 * email: 你的Gsuite帳號 (私人gmail有安全性問題無法使用)
