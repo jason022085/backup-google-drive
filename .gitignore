@@ -1,3 +1,7 @@
+# 忽略所有下載檔案
+download_folder/
+download_folder_backup/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
